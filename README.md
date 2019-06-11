@@ -4,13 +4,13 @@ Precompiled sample program from Optix 5/6 SDK for nvidia-docker tests.
 Test Optix 6 (fails):
 
 ```
-docker run --rm --runtime=nvidia optix-docker-test
+docker run --rm --runtime=nvidia rsulej/optix-docker-test
 ```
 
 While Optix 5 is OK:
 
 ```
-docker run --rm --runtime=nvidia -it optix-docker-test sh
+docker run --rm --runtime=nvidia -it rsulej/optix-docker-test sh
 ```
 
 and in the container:
